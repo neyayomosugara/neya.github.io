@@ -115,13 +115,6 @@ export default function Portfolio() {
               </div>
             </motion.div>
           </div>
-
-          {/* Photo (placeholder stylish photo) */}
-          <div className="relative">
-            <div className="relative mx-auto aspect-square w-64 md:w-80 overflow-hidden rounded-3xl border border-white/10 bg-white/5 backdrop-blur-xl">
-              <img src="https://source.unsplash.com/collection/190727/600x600" alt="Takumi photo" className="absolute inset-0 h-full w-full object-cover" />
-            </div>
-          </div>
         </div>
 
         <div className="mt-12 flex items-center justify-center text-white/70">
@@ -155,13 +148,11 @@ export default function Portfolio() {
             <div className="text-sm text-white/60">2025</div>
             <div className="font-semibold text-lg">NEDO NEP FR採択</div>
             <p className="text-white/80">国立研究開発法人 新エネルギー・産業技術総合開発機構</p>
-            <img src="/11bb1da8-b145-4ef3-b305-0f98b773d277.png" alt="NEDO NEP" className="mt-3 h-16 object-contain" />
           </GlowCard>
           <GlowCard>
             <div className="text-sm text-white/60">2025</div>
             <div className="font-semibold text-lg">経済産業省 AKATSUKI プロジェクト</div>
             <p className="text-white/80">re-kosen に代表として採択</p>
-            <img src="/ロゴ.png" alt="GORO" className="mt-3 h-12 object-contain" />
           </GlowCard>
           <GlowCard>
             <div className="text-sm text-white/60">2023-2024</div>
